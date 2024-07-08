@@ -1,0 +1,25 @@
+GET http://localhost:3001/api/users
+
+###
+
+get http://localhost:3001/api/users/2235
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+  {
+    "name": "Peter",
+    "username": "Peter",
+    "password": "Peter",
+    "id": "2355",
+    "online": false,
+    "email": "miriampilar999@gmail.com",
+    "image": "../images/Hombre.jpg"
+  }
+
+###
+
+DELETE http://localhost:3001/api/users/2355
+
