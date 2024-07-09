@@ -16,3 +16,7 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:3001/api/films/10
+
+###
+
+GET https://videoteca-app.vercel.app/api/films
