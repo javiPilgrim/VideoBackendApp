@@ -2,7 +2,7 @@ GET http://localhost:3001/api/users
 
 ###
 
-get http://localhost:3001/api/users/2235
+get http://localhost:3001/api/users/668d24412811c2cccbf35fb1
 
 ###
 
@@ -13,7 +13,6 @@ Content-Type: application/json
     "name": "Peter",
     "username": "Peter",
     "password": "Peter",
-    "id": "2355",
     "online": false,
     "email": "miriampilar999@gmail.com",
     "image": "../images/Hombre.jpg"
@@ -21,5 +20,5 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3001/api/users/2355
+DELETE http://localhost:3001/api/users/668d4d87098c1e8b29690aeb
 

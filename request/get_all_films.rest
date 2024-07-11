@@ -6,17 +6,18 @@ POST http://localhost:3001/api/films
 Content-Type: application/json
 
 {
-    "id": "10",
+    "titulo": "La vie in rose",
     "vista": false,
-    "titulo": "Chalot",
     "buena": 1,
-    "mala": 0
+    "mala": 0,
+    "idExterna": "43078"
 }
 
 ###
 
-DELETE http://localhost:3001/api/films/10
+DELETE http://localhost:3001/api/films/668d360aa34105aa94b37067
+
 
 ###
 
-GET https://videoteca-app.vercel.app/api/films
+GET http://localhost:3001/api/films/668d360aa34105aa94b37067
